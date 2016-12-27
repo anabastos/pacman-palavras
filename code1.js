@@ -333,6 +333,9 @@ gdjs.JogoCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(contex
 }}
 if (gdjs.JogoCode.condition1IsTrue_0.val) {
 {for(var i = 0, len = gdjs.JogoCode.GDLivroObjects1.length ;i < len;++i) {
+    gdjs.JogoCode.GDLivroObjects1[i].setAngle(-270);
+}
+}{for(var i = 0, len = gdjs.JogoCode.GDLivroObjects1.length ;i < len;++i) {
     gdjs.JogoCode.GDLivroObjects1[i].getBehavior("TopDownMovement2").simulateDownKey();
 }
 }}
@@ -355,6 +358,9 @@ gdjs.JogoCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(contex
 }}
 if (gdjs.JogoCode.condition1IsTrue_0.val) {
 {for(var i = 0, len = gdjs.JogoCode.GDLivroObjects1.length ;i < len;++i) {
+    gdjs.JogoCode.GDLivroObjects1[i].setAngle(180);
+}
+}{for(var i = 0, len = gdjs.JogoCode.GDLivroObjects1.length ;i < len;++i) {
     gdjs.JogoCode.GDLivroObjects1[i].getBehavior("TopDownMovement2").simulateLeftKey();
 }
 }}
@@ -377,6 +383,9 @@ gdjs.JogoCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(contex
 }}
 if (gdjs.JogoCode.condition1IsTrue_0.val) {
 {for(var i = 0, len = gdjs.JogoCode.GDLivroObjects1.length ;i < len;++i) {
+    gdjs.JogoCode.GDLivroObjects1[i].setAngle(-90);
+}
+}{for(var i = 0, len = gdjs.JogoCode.GDLivroObjects1.length ;i < len;++i) {
     gdjs.JogoCode.GDLivroObjects1[i].getBehavior("TopDownMovement2").simulateUpKey();
 }
 }}
@@ -399,6 +408,9 @@ gdjs.JogoCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(contex
 }}
 if (gdjs.JogoCode.condition1IsTrue_0.val) {
 {for(var i = 0, len = gdjs.JogoCode.GDLivroObjects1.length ;i < len;++i) {
+    gdjs.JogoCode.GDLivroObjects1[i].setAngle(0);
+}
+}{for(var i = 0, len = gdjs.JogoCode.GDLivroObjects1.length ;i < len;++i) {
     gdjs.JogoCode.GDLivroObjects1[i].getBehavior("TopDownMovement2").simulateRightKey();
 }
 }}
